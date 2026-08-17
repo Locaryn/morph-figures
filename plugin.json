@@ -1,0 +1,28 @@
+{
+  "$schema": "https://locaryn.dev/schema/plugin.json/v0.1",
+  "apiVersion": "0.1",
+  "name": "plugin-figures",
+  "version": "0.1.0",
+  "description": "Des figures : un rôle, ses consignes, ses outils et ses conversations. Écrivez une fois comment le modèle doit se comporter, et retrouvez-le tel quel à chaque ouverture.",
+  "author": "Locaryn",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Locaryn/plugin-figures",
+  "repository": "https://github.com/Locaryn/plugin-figures",
+  "keywords": ["figures", "persona", "orchestration", "prompts", "roles"],
+  "permissions": {
+    "files_read": false,
+    "files_write": false,
+    "shell": false,
+    "network": false
+  },
+  "capabilities": ["figures"],
+  "ui_contributions": {
+    "nav_items": [
+      {
+        "id": "figures",
+        "label": "Figures",
+        "icon": "figures"
+      }
+    ]
+  }
+}
