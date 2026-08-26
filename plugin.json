@@ -1,13 +1,13 @@
 {
   "$schema": "https://locaryn.dev/schema/plugin.json/v0.1",
   "apiVersion": "0.1",
-  "name": "extension-figures",
+  "name": "morph-figures",
   "version": "0.1.0",
   "description": "Des figures : un rôle, ses consignes, ses outils et ses conversations. Écrivez une fois comment le modèle doit se comporter, et retrouvez-le tel quel à chaque ouverture.",
   "author": "Locaryn",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/Locaryn/extension-figures",
-  "repository": "https://github.com/Locaryn/extension-figures",
+  "homepage": "https://github.com/Locaryn/morph-figures",
+  "repository": "https://github.com/Locaryn/morph-figures",
   "keywords": [
     "figures",
     "persona",
