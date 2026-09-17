@@ -2,7 +2,7 @@
   "$schema": "https://locaryn.dev/schema/morph.json/v0.1",
   "apiVersion": "0.1",
   "name": "morph-figures",
-  "version": "1.1.0-beta.1",
+  "version": "1.2.0",
   "description": "Des figures : un rôle, ses consignes, ses outils et ses conversations. Écrivez une fois comment le modèle doit se comporter, et retrouvez-le tel quel à chaque ouverture.",
   "author": "Locaryn",
   "license": "Apache-2.0",
@@ -24,18 +24,17 @@
   "capabilities": [
     "figures"
   ],
-  "ui_contributions": {
-    "nav_items": [
-      {
-        "id": "figures",
-        "label": "Figures",
-        "icon": "figures"
-      }
-    ]
-  },
   "beta": true,
   "stability": "untested",
   "versions": [
+    {
+      "version": "1.2.0",
+      "is_beta": false,
+      "summary": "Retire le nav_items redondant avec l'id réservé « figures », source d'un doublon d'écran corrigé côté hôte (Locaryn/Locaryn#7, #13).",
+      "tag": "v1.2.0",
+      "released_at": "2026-09-17",
+      "install_source": "Locaryn/morph-figures#v1.2.0"
+    },
     {
       "version": "1.1.0-beta.1",
       "is_beta": true,
