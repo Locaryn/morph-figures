@@ -9,8 +9,8 @@ qu'il doit faire, ce qu'il ne doit pas faire, avec quel modèle et quels outils
 retrouvez telle quelle à chaque ouverture.
 
 C'est l'équivalent des GPT de ChatGPT, mais chez vous, sur vos poids, et sous
-forme d'extension : rien de tout cela n'est natif à Locaryn, et retirer
-l'extension retire l'écran.
+forme de morph : rien de tout cela n'est natif à Locaryn, et retirer
+le morph retire l'écran.
 
 ---
 
@@ -32,7 +32,7 @@ lignes est une figure valable.
 
 ## Trois exemples fournis
 
-Ils sont dans [`figures/`](figures/) et s'installent avec l'extension. Chacun
+Ils sont dans [`figures/`](figures/) et s'installent avec le morph. Chacun
 est un fichier Markdown : un en-tête pour les réglages, le corps pour les
 consignes. C'est le format des [Agent
 Skills](https://agentskills.io) — une figure est lisible par tout outil qui
@@ -74,11 +74,11 @@ libre. Une figure reste donc lisible ailleurs, et n'y perd que ses réglages.
 
 ## Installation
 
-Depuis l'application : **Réglages → Extensions**, puis `Locaryn/plugin-figures`.
+Depuis l'application : **Réglages → Morphs**, puis `Locaryn/plugin-figures`.
 
 Un bouton **Figures** apparaît dans le menu principal, sur l'ordinateur comme
 sur le téléphone. Il ouvre la liste, la configuration de chacune, et leurs
 conversations.
 
-Retirer l'extension retire le bouton et l'écran. Les figures écrites restent
+Retirer le morph retire le bouton et l'écran. Les figures écrites restent
 sur le serveur : les réinstaller les retrouve.
